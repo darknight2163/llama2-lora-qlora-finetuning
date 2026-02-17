@@ -65,7 +65,6 @@ Key QLoRA Parameters
 | optimizer | paged_adamw_32bit | Memory efficient |
 
 ## Training Pipeline
-====================
 ### Step 1: Install Required Packages
 
 Uses:
@@ -169,7 +168,6 @@ Model uploaded for reuse.
 * * * * *
 
 ## Monitoring Training
-======================
 
 TensorBoard was used to monitor:
 -   Loss curve
@@ -177,7 +175,6 @@ TensorBoard was used to monitor:
 * * * * *
 
 ## Inference Example
-====================
 
 `prompt = "What is a large language model?"
 pipe = pipeline(...)`
@@ -187,7 +184,6 @@ Input formatted as:
 * * * * *
 
 ## Key Learnings
-================
 -   Full fine-tuning is expensive.
 -   PEFT enables training large models on small GPUs.
 -   QLoRA makes 7B models trainable on 15GB VRAM.
